@@ -1,8 +1,10 @@
-# 🎬 Hierarchical Representation with Clips Enabled by MoE-Attentive Aggregation for Weakly Supervised Group Activity Recognition
+# 🎬 Clip-Centric Hierarchical Spatiotemporal Modeling for Weakly Supervised Group Activity Recognition
+
+[![DOI](https://zenodo.org/badge/1214876204.svg)](https://doi.org/10.5281/zenodo.19806420)
 
 **(The paper has been submitted to The Visual Computer.)**
 
-Official implementation of **"Hierarchical Representation with Clips Enabled by MoE-Attentive Aggregation for Weakly Supervised Group Activity Recognition"**.
+Official implementation of **"Clip-Centric Hierarchical Spatiotemporal Modeling for Weakly Supervised Group Activity Recognition"**.
 
 <p align="center">
   <a href="https://github.com/rt-dev-design/HRCM-GAR">
@@ -29,7 +31,7 @@ Our framework consists of a dedicated sampling strategy and a hierarchical netwo
 * Then, the network progressively extracts and aggregates information **within clips** and **across clips** to produce a video-level representation for classification. 
 * To better summarize feature grids appearing repeatedly in this hierarchy, we further propose a **MoE-Attentive Aggregator**, which adaptively combines multiple attention-based experts for more expressive and effective aggregation.
 
-Experiments on **Volleyball** and **NBA** benchmarks show that our method outperforms prior weakly supervised RGB-only approaches and remains competitive with methods using stronger supervision or additional modalities.
+ Experiments on Volleyball and NBA datasets show that our approach outperforms recent RGB-only weakly supervised methods, achieving 92.1% MCA on Volleyball and 67.9% MCA on NBA under strict low-supervision settings. The framework reduces dependence on auxiliary modalities and offers a lightweight, reproducible solution for real-world group activity analysis.
 > **[IMPORTANT REPRODUCIBILITY STATEMENT]**
 > 
 > To ensure full reproducibility, the source code and data for this work are made permanently available.
@@ -38,7 +40,7 @@ Experiments on **Volleyball** and **NBA** benchmarks show that our method outper
 
 ## ⚙️ Environment Setup
 
-Create the conda environment and install dependencies:
+Create a conda environment and install the dependencies:
 
 ```bash
 conda create -n HRCM python=3.9 -y

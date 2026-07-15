@@ -2,7 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/1214876204.svg)](https://doi.org/10.5281/zenodo.19806420)
 
-**(The paper has been submitted to The Visual Computer.)**
 
 Official implementation of **"Clip-Centric Hierarchical Spatiotemporal Modeling for Weakly Supervised Group Activity Recognition"**.
 
@@ -100,22 +99,6 @@ HRCM-GAR/
 
 ---
 
-## 📜 Citation
-
-If you find this work useful in your research, please cite our work:
-
-```latex
-@article{Zheng2025HRCM,
-  title={Hierarchical Representation with Clips Enabled by MoE-Attentive Aggregation for Weakly Supervised Group Activity Recognition},
-  author={Zheng, Runtian and Zhang, Chengfang and Feng, Ziliang},
-  journal={The Visual Computer},
-  year={2025}
-}
-```
-> **[IMPORTANT NOTE FOR READERS]**
-> 
-> This code is directly related to the manuscript submitted to The Visual Computer. We kindly urge readers to cite the relevant manuscript if they use this repository or its core methodologies in their research.
----
 
 ## 📬 Contact
 
